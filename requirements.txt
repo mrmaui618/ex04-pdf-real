@@ -7,3 +7,6 @@ langchain-classic
 pypdf
 python-dotenv
 streamlit
+protobuf
+chromadb
+langchain-chroma
