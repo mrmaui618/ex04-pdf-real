@@ -1,6 +1,16 @@
 import os
-import tempfile
+# 중요: langchain, chromadb 등 다른 모든 import보다 무조건 위에 있어야 합니다!
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
+# --- 기존 코드 시작 ---
+from langchain_chroma import Chroma
 import streamlit as st
+# ... 나머지 기존 코드들
+
+
+# import os
+# import tempfile
+# import streamlit as st
 from dotenv import load_dotenv
 
 # 환경변수 로드

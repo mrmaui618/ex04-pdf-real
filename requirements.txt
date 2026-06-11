@@ -7,6 +7,6 @@ langchain-classic
 pypdf
 python-dotenv
 streamlit
-protobuf
+protobuf~=3.19.0
 chromadb
 langchain-chroma
